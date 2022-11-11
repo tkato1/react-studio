@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My Bakery</h1>
+      <h1>Toshi's Bakery</h1>
       <hr></hr>
 
       <row>
