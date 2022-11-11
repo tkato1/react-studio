@@ -21,7 +21,7 @@ function App() {
       <row>
         <tr>
           <th id="one">
-            {bakeryData.map((item, index) => (  // TODO: map bakeryData to BakeryItem components
+            {bakeryData.map((item, index) => (
             <BakeryItem cart={cart} total={total} setTotal={setTotal} setCart={setCart} price={item.price} name={item.name} image={item.image} desc={item.description}></BakeryItem>
             ))}
           </th>

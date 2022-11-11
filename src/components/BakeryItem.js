@@ -1,4 +1,4 @@
-// TODO: create a component that displays a single bakery item
+
 import './BakeryItem.css'
 import { useState } from 'react'
 export default function BakeryItem(props) {
